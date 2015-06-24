@@ -20,7 +20,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="324" id="pi4-rn-joL">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="324" id="pi4-rn-joL" customClass="CustomTableViewCell" customModule="CustomTableCell" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="pi4-rn-joL" id="Ad0-ci-bPb">
@@ -42,13 +42,19 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ContentLabel" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tNz-ka-SSY">
-                                                    <rect key="frame" x="8" y="177" width="584" height="139"/>
+                                                    <rect key="frame" x="8" y="176" width="584" height="139"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="Date" destination="dai-Gs-JeN" id="Eoo-oD-BUk"/>
+                                            <outlet property="Description" destination="tNz-ka-SSY" id="QK1-vC-tNL"/>
+                                            <outlet property="ImageEvent" destination="ax4-uU-Kvd" id="06Y-xQ-fPn"/>
+                                            <outlet property="Title" destination="gxN-GR-aLw" id="NU6-z6-6DW"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>

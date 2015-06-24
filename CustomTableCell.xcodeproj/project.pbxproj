@@ -13,6 +13,7 @@
 		AAB06EDD1B39540E00CA75B1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAB06EDC1B39540E00CA75B1 /* Images.xcassets */; };
 		AAB06EE01B39540E00CA75B1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAB06EDE1B39540E00CA75B1 /* LaunchScreen.xib */; };
 		AAB06EEC1B39540E00CA75B1 /* CustomTableCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB06EEB1B39540E00CA75B1 /* CustomTableCellTests.swift */; };
+		AAB06EF61B39672600CA75B1 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB06EF51B39672600CA75B1 /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		AAB06EE51B39540E00CA75B1 /* CustomTableCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTableCellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB06EEA1B39540E00CA75B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAB06EEB1B39540E00CA75B1 /* CustomTableCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableCellTests.swift; sourceTree = "<group>"; };
+		AAB06EF51B39672600CA75B1 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		AAB06ED21B39540E00CA75B1 /* CustomTableCell */ = {
 			isa = PBXGroup;
 			children = (
+				AAB06EF51B39672600CA75B1 /* CustomTableViewCell.swift */,
 				AAB06ED51B39540E00CA75B1 /* AppDelegate.swift */,
 				AAB06ED71B39540E00CA75B1 /* ViewController.swift */,
 				AAB06ED91B39540E00CA75B1 /* Main.storyboard */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAB06EF61B39672600CA75B1 /* CustomTableViewCell.swift in Sources */,
 				AAB06ED81B39540E00CA75B1 /* ViewController.swift in Sources */,
 				AAB06ED61B39540E00CA75B1 /* AppDelegate.swift in Sources */,
 			);
@@ -405,6 +409,7 @@
 				AAB06EF11B39540F00CA75B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AAB06EF21B39540F00CA75B1 /* Build configuration list for PBXNativeTarget "CustomTableCellTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				AAB06EF41B39540F00CA75B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
